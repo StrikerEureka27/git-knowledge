@@ -1,0 +1,42 @@
+
+	Comandos de GIT:
+	
+	git init: inicializar un repositorio 
+	git config: ver la configuracion de git
+	git config --list: ver la lista de configuacion basica 
+	git config --global user.name "Pablo Caceros" : configurar el nombre de usuario 
+	git config --global user.email "example@gamil.com"
+	
+	git add . : Agregar a stanging (RAM) el archivo o ponerlo en un estado tracked 
+	git rm --cached : Borrrar un archivo del staging pero se mantienen en el disco duro. 
+	git rm --force: Elimina los archivos de Git y del disco duro.  
+	git commit -m "mesaje de guardado".
+	git status: Para ver el estado del stanging.
+	git log: Para ver el historial de commits.
+	git log --oneline: Para ver el historial de commits mas limpio. 
+	git log --stat : Ver las estadisticas de los cambios que hemos realizado.
+	git diff #commit1 #commit2 Para ver las diferencias entre un archivo y otro. 
+	git show: Muestra los cambios del ultimo commit
+
+	git reset HEAD:  Este es el comando para sacar archivos del área de Staging.		
+	git reset #commit [--soft] [--hard]: Volvemos al archivo en la version de commit indicada 
+	git checkout #commit :Podemos revisar una version anterior
+	git checkout master archivo.extencion: Volvemos al archivo con el ultimo commit realizado.    
+
+	Comando terminal de linux:
+
+	ls: Para desplegar la lista de carpetas y archivos 
+	ls -l: Para desplegar las carpetas y archivos en lista 
+	ls -la: Para desplegar los archivos ocultos 
+	
+	cd 'directorio' : Para moverse entre los directorios (carpetas)
+	cd .. : Para moverse atras 
+	cd c : Para ir al dis C
+	cd /: Para ir a la raiz del linux emulado de la terminal 
+	
+	mkdir 'nombreCarpeta': Crear una carpeta (directorio)
+	rm 'archivo.extencion' : Eliminar archivos
+	rmdir: Eliminar una carpeta 
+	rm -r: Eliminar carpetas y archivos contenidos. 
+	 
+         
