@@ -22,7 +22,17 @@
 	git reset HEAD:  Este es el comando para sacar archivos del área de Staging.		
 	git reset #commit [--soft] [--hard]: Volvemos al archivo en la version de commit indicada 
 	git checkout #commit :Podemos revisar una version anterior
-	git checkout master archivo.extencion: Volvemos al archivo con el ultimo commit realizado.    
+	git checkout master archivo.extencion: Volvemos al archivo con el ultimo commit realizado.
+
+	Manejo de ramas:
+	
+	git branch : Permite ver las ramas que tengo creadas hasta el momento. 
+	git merge : Permite la funcion entre ramas
+	
+	Nota:
+	
+	Para salir del editor de texto de VIM es Esc + Shift + z + z
+	    
 
 	Comando terminal de linux:
 
