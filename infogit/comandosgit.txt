@@ -7,7 +7,8 @@
 	git config --global user.name "Pablo Caceros" : configurar el nombre de usuario 
 	git config --global user.email "example@gamil.com"
 	
-	git add . : Agregar a stanging (RAM) el archivo o ponerlo en un estado tracked 
+	git add . : Agregar a stanging (RAM) el archivo o ponerlo en un estado tracked
+	git commit -am : Este realiza el add de manera automatica, pero solo funciona cuando los archivos esten en staging.  
 	git rm --cached : Borrrar un archivo del staging pero se mantienen en el disco duro. 
 	git rm --force: Elimina los archivos de Git y del disco duro.  
 	git commit -m "mesaje de guardado".
