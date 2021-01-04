@@ -29,11 +29,21 @@
 	git branch : Permite ver las ramas que tengo creadas hasta el momento.
 	git branch -d nombreRama : Nos permite borrar una rama  
 	git merge : Permite la funcion entre ramas
+
+	Git con Github:
+	git remote add origin *url : Con este comando indicamos el origen del repositorio remoto 
+	git remote : Vemos que estamos conectados al origen 
+	git remote -v : Nos despliega el origen que establecimos para hacer fetch y pull
+
+	git push origin master : Para mandar nuestros datos al repositorio remoto
+	git pull origin master : Para traer los datos a nuestro repositorio local
+	git pull origin master --allow-unrelated-histories : Permite fucionar el historial de commits del local al remoto 	 
 	
 	Nota:
 	
-	Para salir del editor de texto de VIM es Esc + Shift + z + z
-	    
+	Para salir del editor de texto de VIM es Esc + Shift + z + z 
+	Push : Es para enviar datos al servidor remoto 	
+	Pull: Para traer datos del servidor remoto
 
 	Comando terminal de linux:
 
@@ -52,4 +62,5 @@
 	rm -r: Eliminar carpetas y archivos contenidos. 
 	 
          
+	
 	
