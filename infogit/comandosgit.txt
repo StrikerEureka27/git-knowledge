@@ -26,7 +26,8 @@
 
 	Manejo de ramas:
 	
-	git branch : Permite ver las ramas que tengo creadas hasta el momento. 
+	git branch : Permite ver las ramas que tengo creadas hasta el momento.
+	git branch -d nombreRama : Nos permite borrar una rama  
 	git merge : Permite la funcion entre ramas
 	
 	Nota:
@@ -51,3 +52,4 @@
 	rm -r: Eliminar carpetas y archivos contenidos. 
 	 
          
+	
