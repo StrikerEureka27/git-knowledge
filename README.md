@@ -92,7 +92,6 @@ git reset #commit [--soft] [--hard]
 git checkout #commit
 ```
 > Podemos revisar una version anterior.
-
 	 
 ```
 git checkout master archivo.extencion
@@ -102,19 +101,73 @@ git checkout master archivo.extencion
 ## Manejo de ramas:
 	
 ```
-git branch : Permite ver las ramas que tengo creadas hasta el momento.
-git branch -d nombreRama : Nos permite borrar una rama  
-git merge : Permite la funcion entre ramas
-
-Git con Github:
-git remote add origin *url : Con este comando indicamos el origen del repositorio remoto 
-git remote : Vemos que estamos conectados al origen 
-git remote -v : Nos despliega el origen que establecimos para hacer fetch y pull
-
-git push origin master : Para mandar nuestros datos al repositorio remoto
-git pull origin master : Para traer los datos a nuestro repositorio local
-git pull origin master --allow-unrelated-histories : Permite fucionar el historial de commits del local al remoto 	 
+git branch
 ```
+> Permite ver las ramas que tengo creadas hasta el momento.
+
+```
+git branch -d [name_branch]  
+```
+> Nos permite borrar una rama. 
+
+```
+git merge 
+```
+> Permite la funcion entre ramas. 
+
+## Manejo de git con github
+
+```
+git remote add [origin] *url 
+```
+> Con este comando indicamos el origen del repositorio remoto. 
+
+```
+git remote  
+```
+> Vemos que estamos conectados al origen. 
+
+```
+git remote -v 
+```
+> Nos despliega el origen que establecimos para hacer fetch y pull. 
+
+```
+git push origin master 
+```
+> Para mandar nuestros datos al repositorio remoto. 
+
+```
+git pull origin master 
+```
+> Para traer los datos a nuestro repositorio local.
+
+```
+git pull origin master --allow-unrelated-histories 
+```
+> Permite fucionar el historial de commits del local al remoto.
+
+## Configuracion de conexion de ssh
+
+```
+ssh-keygen -t ed25519 -C "mail@gmail.com"
+```
+> Generate a new key
+
+```
+ssh-keygen -t rsa -b 4096 -C "mail@email.com"
+```
+> Generate a new key with rsa algorithm
+
+```
+eval $(ssh-agent -s)
+```
+> Activar el agente de ssh.
+
+```
+ssh-add ~/.ssh/[nombre_llave]
+```
+> Agregar la llave privada a nuestro entorno.
 
 ## Notas
 	
@@ -124,16 +177,20 @@ git pull origin master --allow-unrelated-histories : Permite fucionar el histori
 
 ## Comando terminal de linux:
 
+```
 ls: Para desplegar la lista de carpetas y archivos 
 ls -l: Para desplegar las carpetas y archivos en lista 
 ls -la: Para desplegar los archivos ocultos 
-
+```
+```
 cd 'directorio' : Para moverse entre los directorios (carpetas)
 cd .. : Para moverse atras 
 cd c : Para ir al dis C
-cd /: Para ir a la raiz del linux emulado de la terminal 
-
+cd /: Para ir a la raiz del linux emulado de la terminal
+```
+```
 mkdir 'nombreCarpeta': Crear una carpeta (directorio)
 rm 'archivo.extencion' : Eliminar archivos
 rmdir: Eliminar una carpeta 
 rm -r: Eliminar carpetas y archivos contenidos. 
+```
