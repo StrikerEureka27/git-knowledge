@@ -115,6 +115,24 @@ git merge
 ```
 > Permite la funcion entre ramas. 
 
+```
+git log --all --graph --decorate --oneline
+```
+> Permite visualizar de forma grafica la correlacionde las ramas y los commits.
+
+## Utilizando tags
+
+```
+git tag -a v0.1 -m"Fisrt blogpost version" d86dee4
+```
+> Podemos agregarle una tag a un commit especifico. 
+
+```
+git tag
+git show-ref --tags
+```
+> Para visualizar las tags existentes
+
 ## Manejo de git con github
 
 ```
