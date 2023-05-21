@@ -23,3 +23,8 @@ body{
     background-color: cornflowerblue;
     padding: 0.5rem;
 }
+
+footer{
+    background-color: gray;
+    color: white;
+}
