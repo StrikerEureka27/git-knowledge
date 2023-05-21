@@ -98,7 +98,7 @@ git checkout master archivo.extencion
 ```
 > Volvemos al archivo con el ultimo commit realizado.
 
-## Manejo de ramas:
+## Manejo de ramas
 	
 ```
 git branch

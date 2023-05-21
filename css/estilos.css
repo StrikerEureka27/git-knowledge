@@ -5,6 +5,11 @@ body{
     text-align: center;
 }
 
+img {
+    width: 100px;
+    height: 100px;
+}
+
 .container{
     margin: 0px auto;
     width: 70%;
