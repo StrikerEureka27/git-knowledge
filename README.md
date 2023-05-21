@@ -120,6 +120,13 @@ git log --all --graph --decorate --oneline
 ```
 > Permite visualizar de forma grafica la correlacionde las ramas y los commits.
 
+```
+git show-branch
+git show-branch --all
+gitk
+```
+> Permite visualizar el historial de uso de ramas
+
 ## Utilizando tags
 
 ```
@@ -140,8 +147,9 @@ git push origin --tags
 
 ```
 git tag -d v0.0
+git push origin :refs/tags/v0.0
 ```
-> Send our tags to remote repository. 
+> Delete our tags to local and remote repository. 
 
 ## Manejo de git con github
 
