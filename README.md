@@ -207,7 +207,7 @@ ssh-add ~/.ssh/[nombre_llave]
 
 ## Pull request
 
-
+> Esta es una caracteristica de github. 
 
 ## Notas
 	
