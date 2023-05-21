@@ -113,7 +113,7 @@ git branch -d [name_branch]
 ```
 git merge 
 ```
-> Permite la funcion entre ramas. 
+> Permite la funcion entre ramas, se funcionan los cambios en la rama en la que estemos. 
 
 ```
 git log --all --graph --decorate --oneline
@@ -204,6 +204,10 @@ eval $(ssh-agent -s)
 ssh-add ~/.ssh/[nombre_llave]
 ```
 > Agregar la llave privada a nuestro entorno.
+
+## Pull request
+
+
 
 ## Notas
 	
