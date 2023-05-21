@@ -133,6 +133,11 @@ git show-ref --tags
 ```
 > Para visualizar las tags existentes
 
+```
+git show-ref --tags
+```
+> Send our tags to remote repository. 
+
 ## Manejo de git con github
 
 ```
