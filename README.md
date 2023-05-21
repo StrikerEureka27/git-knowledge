@@ -134,7 +134,12 @@ git show-ref --tags
 > Para visualizar las tags existentes
 
 ```
-git show-ref --tags
+git push origin --tags
+```
+> Send our tags to remote repository. 
+
+```
+git tag -d v0.0
 ```
 > Send our tags to remote repository. 
 
