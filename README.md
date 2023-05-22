@@ -234,3 +234,7 @@ rm 'archivo.extencion' : Eliminar archivos
 rmdir: Eliminar una carpeta 
 rm -r: Eliminar carpetas y archivos contenidos. 
 ```
+
+## Github pages
+
+<a href="https://strikereureka27.github.io/blogpost-git/blogpost.html" >Go</a>
